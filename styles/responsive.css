@@ -1,0 +1,62 @@
+/* large screen */
+@media screen and (min-width: 1400px) {
+  .header-section {
+    height: 100vh;
+  }
+  .iphone {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+  .iphone {
+    rotate: 0deg;
+    width: 80%;
+  }
+  .details-section h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .iphone {
+    rotate: 0deg;
+    width: 80%;
+  }
+  .details-section h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .iphone {
+    rotate: 0deg;
+    width: 80%;
+  }
+  .details-section h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-section {
+    height: 100%;
+  }
+  .iphone {
+    rotate: 0deg;
+    width: 90%;
+  }
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .details-section h1 {
+    font-size: 1.5rem;
+  }
+  .navbar,
+  .card,
+  .info-section {
+    flex-direction: column;
+  }
+}
